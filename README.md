@@ -1,5 +1,9 @@
 # Bluetooth remote controller
 
+## Intro
+
+## Schematics
+
 ## Parts
 
 - Pi Pico H
@@ -20,6 +24,6 @@
   - Rb: 0/1\n (not implemented yet)
   
   
-## Micropython code
+## Config
 
 ## 3D files
