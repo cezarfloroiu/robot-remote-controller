@@ -7,7 +7,7 @@
 ## Parts
 
 - Pi Pico H
-- 2 Joysticks
+- 2 Joysticks modules
 - PCF8591 (ADC mux - I2C)
 - HC-08 (bluetooth)
 - TP4056 (USB-C Lipo charger)
