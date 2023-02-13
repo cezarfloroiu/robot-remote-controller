@@ -17,7 +17,7 @@
 - Left button
   - Lx: M/L/R\n
   - Ly: M/U/D\n
-  - Lb: 1/0\n
+  - Lb: 0/1\n
 - Right button
   - Rx: M/L/R\n
   - Ry: M/U/D\n
