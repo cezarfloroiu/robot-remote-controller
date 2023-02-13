@@ -13,15 +13,15 @@
 - TP4056 (USB-C Lipo charger)
 - 18650 Lipo 3.7
 
-## Data Protocol
+## Communication Protocol
 - Left button
   - Lx: M/L/R\n
   - Ly: M/U/D\n
-  - Lb: 1/0\n (not implemented yet)
+  - Lb: 1/0\n
 - Right button
   - Rx: M/L/R\n
   - Ry: M/U/D\n
-  - Rb: 0/1\n (not implemented yet)
+  - Rb: 0/1\n
   
   
 ## Config
