@@ -5,12 +5,10 @@
             Rx:M/L/R\n
             Ry:M/U/D\n
             Rb:1/0\n
-
         Left button:
             Lx:M/L/R\n
             Ly:M/U/D\n
             Lb:1/0\n
-
         Legend:
             M = middle
             L = left
@@ -94,11 +92,11 @@ while True:
     bRValue = buttonR.value()
     if bRValue == 0:
         bRStatus =1
-        
-    yRValue = p.read(0)
-    #print('RB Y ' + str(data))
-    xRValue = p.read(1)
+
+    xRValue = p.read(0)
     #print('RB X ' + str(data))
+    yRValue = p.read(1)
+    #print('RB Y ' + str(data))
     
     if xRValue <= 100:
         xRStatus = "L" #left
@@ -155,4 +153,3 @@ while True:
     utime.sleep(0.1)
 
 ledBoard.off()
-
